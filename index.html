@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Needbaz</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/9989d8d576.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
@@ -11,7 +11,7 @@
 </head>
 <body>
     <section>
-      <div class="navbar bg-base-100 " style="border-bottom: 2px solid gray; border-radius: 20px; padding: 0px;">
+      <div class="navbar bg-base-100 " style="border-bottom: 1px solid gray; border-radius: 20px; padding: 0px;">
         <div class="flex-none">
           <button class="btn btn-square btn-ghost">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -36,6 +36,29 @@
       <button class="btn btn-outline hover:bg-accent-focus">Grocery</button>
       <button class="btn btn-outline hover:bg-warning">Pharmacy</button>
       <button class="btn btn-outline hover:bg-error">Cookups</button>
+    </section>
+
+
+
+
+
+    <section>
+      <div class="carousel w-full max-sm max-md">
+        <div id="item1" class="carousel-item w-full">
+          <img src="images/ban_1.jpg" class="w-full" />
+        </div> 
+        <div id="item2" class="carousel-item w-full">
+          <img src="images/nan-2.jpg" class="w-full" />
+        </div> 
+        <div id="item3" class="carousel-item w-full">
+          <img src="images/ban_3.jpg" class="w-full" />
+        </div> 
+      </div> 
+      <div class="flex justify-center w-full py-2 gap-2">
+        <a href="#item1" class="btn btn-xs">1</a> 
+        <a href="#item2" class="btn btn-xs">2</a> 
+        <a href="#item3" class="btn btn-xs">3</a> 
+      </div>
     </section>
 
     
